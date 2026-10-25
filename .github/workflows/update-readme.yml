@@ -1,8 +1,11 @@
 name: Update README
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
+
+permissions: {}
+
 jobs:
   build:
     name: Update this repo's README with recent activity
@@ -11,7 +14,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v7
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true # required: the activity action pushes with this token
+      - uses: jamesgeorge007/github-activity-readme@4aefbfa1c222d70537dc6a02f0519266aab2b1ea # v0.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 8
