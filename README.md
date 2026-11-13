@@ -33,8 +33,8 @@
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#23](https://github.com/tobiaswild/bitbucket-review-reset/pull/23) in [tobiaswild/bitbucket-review-reset](https://github.com/tobiaswild/bitbucket-review-reset)
-2. 💪 Opened PR [#23](https://github.com/tobiaswild/bitbucket-review-reset/pull/23) in [tobiaswild/bitbucket-review-reset](https://github.com/tobiaswild/bitbucket-review-reset)
+1. 💪 Opened PR [#53](https://github.com/tobiaswild/bitbucket-review-reset/pull/53) in [tobiaswild/bitbucket-review-reset](https://github.com/tobiaswild/bitbucket-review-reset)
+2. 💪 Opened PR [#52](https://github.com/tobiaswild/bitbucket-review-reset/pull/52) in [tobiaswild/bitbucket-review-reset](https://github.com/tobiaswild/bitbucket-review-reset)
 <!--END_SECTION:activity-->
 
 ---
